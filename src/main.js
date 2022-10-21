@@ -28,3 +28,5 @@ const securityCodePattern = {
 }
 
 const securityCodeMasked = IMask(securityCode, securityCodePattern)
+
+const expirationDate = document.querySelector("expiration-date")
