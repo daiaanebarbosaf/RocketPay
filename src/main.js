@@ -24,21 +24,21 @@ globalThis.setCardType = setCardType
 const securityCode = document.querySelector("#security-code")
 
 const securityCodePattern = {
-  mask: "0000",
+  mask: "0000"
 }
 
 const securityCodeMasked = IMask(securityCode, securityCodePattern)
 
-const expirationDate = document.querySelector("expiration-date")
+const expirationDate = document.querySelector("#expiration-date")
 const expirationDatePattern = {
   mask: "MM{/}00",
   blocks: {
     MM: {
       mask: IMask.MaskedRange,
       from: 1,
-      to: 12,
-    },
-  },
+      to: 12
+    }
+  }
 }
 
 const expirationDateMasked = IMask(expirationDate, expirationDatePattern)
