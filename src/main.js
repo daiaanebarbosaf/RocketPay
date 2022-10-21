@@ -31,10 +31,10 @@ const securityCodeMasked = IMask(securityCode, securityCodePattern)
 
 const expirationDate = document.querySelector("expiration-date")
 const expirationDatePattern = {
-  mask:"MM{/}00",
+  mask: "MM{/}00",
   blocks: {
     MM: {
-      IMask.MaskedRange,
+      mask: IMask.MaskedRange,
       from: 1,
       to: 12
     },
