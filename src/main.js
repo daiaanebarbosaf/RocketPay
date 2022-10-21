@@ -24,3 +24,7 @@ globalThis.setCardType = setCardType
 
 //document.getElementById("security-code")
 const securityCode = document.querySelector('#security-code')
+
+const securityCodePattern = {
+  mask:"000"
+}
