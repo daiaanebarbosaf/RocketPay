@@ -26,5 +26,7 @@ globalThis.setCardType = setCardType
 const securityCode = document.querySelector('#security-code')
 
 const securityCodePattern = {
-  mask:"000"
+  mask:"0000"
 }
+
+const securityCodeMasked = IMask(securityCode, securityCodePattern)
