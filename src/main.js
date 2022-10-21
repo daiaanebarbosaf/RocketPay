@@ -36,7 +36,7 @@ const expirationDatePattern = {
     MM: {
       mask: IMask.MaskedRange,
       from: 1,
-      to: 12
+      to: 12,
     },
   },
 }
