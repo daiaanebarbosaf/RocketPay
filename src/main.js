@@ -17,16 +17,14 @@ function setCardType(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 
-setCardType("")
-
 //através dessa linha poderemos atualizar diretamente do DevTools
 globalThis.setCardType = setCardType
 
 //document.getElementById("security-code")
-const securityCode = document.querySelector('#security-code')
+const securityCode = document.querySelector("#security-code")
 
 const securityCodePattern = {
-  mask:"0000"
+  mask: "0000",
 }
 
 const securityCodeMasked = IMask(securityCode, securityCodePattern)
