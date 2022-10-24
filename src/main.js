@@ -74,7 +74,7 @@ const cardNumberPattern = {
       return number.match(item.regex)
     })
 
-    console.log()
+    console.log(foundMask)
 
     return foundMask
   },
