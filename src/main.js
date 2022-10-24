@@ -53,7 +53,7 @@ const cardNumber = document.querySelector("#card-number")
 const cardNumberPatter = {
   mask: [
     {
-      mask: ""
+      mask: "0000 0000 0000 0000"
     }
   ]
 }
