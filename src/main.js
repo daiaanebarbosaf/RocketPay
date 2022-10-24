@@ -50,5 +50,11 @@ const expirationDatePattern = {
 const expirationDateMasked = IMask(expirationDate, expirationDatePattern)
 
 const cardNumber = document.querySelector("#card-number")
-const cardNumberPa
+const cardNumberPatter = {
+  mask: [
+    {
+      mask: ""
+    }
+  ]
+}
 
