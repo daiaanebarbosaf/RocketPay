@@ -59,7 +59,7 @@ const cardNumberPatter = {
     },
     {
       mask: "0000 0000 0000 0000",
-      regex: //,
+      regex: /(^5[1-5]\d{0,2}|^22[2-9]\d|^2[3-7]\d{0,2}\d{0,12})/,
       cardtype: "mastercard"
     },
     {
