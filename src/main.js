@@ -54,11 +54,12 @@ const cardNumberPatter = {
   mask: [
     {
       mask: "0000 0000 0000 0000",
+      regex: /^4\d{0,15}/,
       cardtype: "visa"
     },
     {
       mask: "0000 0000 0000 0000",
-      regex:/^4\d{0,15}/,
+      regex: //,
       cardtype: "mastercard"
     },
     {
