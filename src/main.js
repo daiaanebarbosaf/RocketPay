@@ -66,6 +66,9 @@ const cardNumberPatter = {
       mask: "0000 0000 0000 0000",
       cardtype: "default"
     }
-  ]
+  ],
+  dispatch: function(appended, dynamicMasked) {
+    const number = (dynamicMasked.value + appended).replace(/\D/g, "")
+  },
 }
 
