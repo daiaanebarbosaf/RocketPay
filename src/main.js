@@ -56,6 +56,14 @@ const cardNumberPatter = {
       mask: "0000 0000 0000 0000",
       cardtype: "visa"
     },
+    {
+      mask: "0000 0000 0000 0000",
+      cardtype: "mastercard"
+    },
+    {
+      mask: "0000 0000 0000 0000",
+      cardtype: "default"
+    }
   ]
 }
 
