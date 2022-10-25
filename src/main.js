@@ -86,3 +86,7 @@ const addButton = document.querySelector("add-card")
 addButton.addEventListener("click", () => {
   console.log("Clicou no botão")
 })
+
+document.querySelector("form").addEventListener("submit", (event) => {
+  event.preventDefault
+})
