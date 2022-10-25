@@ -93,6 +93,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
 })
 
 const cardHolder = document.querySelector("#card-holder")
+
 cardHolder.addEventListener("input", () => {
   const ccHolder = document.querySelector(".cc-holder .value")
 
