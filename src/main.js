@@ -101,7 +101,7 @@ cardHolder.addEventListener("input", () => {
 })
 
 securityCodeMasked.on("accept", () => {
-
+  updateSecurityCode();
 })
 
 function updateSecurityCode(code){
