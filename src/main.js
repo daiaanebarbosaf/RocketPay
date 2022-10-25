@@ -91,3 +91,5 @@ addButton.addEventListener("click", () => {
 document.querySelector("form").addEventListener("submit", (event) => {
   event.preventDefault()
 })
+
+constcardHolder = document.querySelector("#card-holder")
