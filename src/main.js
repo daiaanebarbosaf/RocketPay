@@ -109,3 +109,7 @@ function updateSecurityCode(code){
 
   ccSecurity.innerText = code.length === 0 ? "123" : code
 }
+
+cardNumberMasked.on("accept", () => {
+
+})
