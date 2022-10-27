@@ -111,7 +111,7 @@ function updateSecurityCode(code){
 }
 
 cardNumberMasked.on("accept", () => {
-
+  updateCardNumber(cardNumberMasked.value);
 })
 
 function updateCardNumber(number){
